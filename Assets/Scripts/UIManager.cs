@@ -8,8 +8,14 @@ public class UIManager : MonoBehaviour
     [SerializeField] TMP_Text nameText;
     [SerializeField] TMP_Text descriptionText;
 
+    [SerializeField] GameObject textPanel;
+
     public void SetValues(string nameString, string descriptionString) {
         nameText.text = nameString;
         descriptionText.text = descriptionString;
+    }
+
+    public void SetPanelVisible(bool visible) {
+        textPanel.SetActive(visible);
     }
 }

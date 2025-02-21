@@ -32,7 +32,11 @@ public class BoatGameManager : MonoBehaviour
 
     public void RemoveLife() {
         numLives--;
-        livesIndicatorObjects[numLives].SetActive(false);
+        
+        if (numLives >= 0) {
+            livesIndicatorObjects[numLives].SetActive(false);
+        }
+
         if (numLives <= 0) { 
             EndGame();
         }

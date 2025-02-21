@@ -9,8 +9,8 @@ public class KurtCobain : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void SetSpawnIndex() {
+    public void SetSpawnIndex(int index) {
         ObjectSpawner.numSpawnedThings = 0;
-        ObjectSpawner.m_SpawnOptionIndex = 1;
+        ObjectSpawner.m_SpawnOptionIndex = index;
     }
 }

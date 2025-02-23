@@ -4,12 +4,23 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
+    public enum ObstacleType {
+        None,
+        Wood,
+        Point
+    }
+
+    public ObstacleType obstacleType;
     void OnCollisionEnter(Collision collision) {
-        // Debug.Log(collision.gameObject.tag);
-        // if (collision.gameObject.tag == "Boat") {
+        if (collision.gameObject.tag == "Boat") {
             GameObject boatGameManager = GameObject.FindGameObjectWithTag("BoatGameManager");
-            boatGameManager.GetComponent<BoatGameManager>().RemoveLife();
+            if (obstacleType == ObstacleType.Wood) {
+                boatGameManager.GetComponent<BoatGameManager>().RemoveLife();
+            }
+            else if (obstacleType == ObstacleType.Point) {
+                boatGameManager.GetComponent<BoatGameManager>().AddPoint();
+            }
             Destroy(gameObject);
-        // }
+        }
     }
 }

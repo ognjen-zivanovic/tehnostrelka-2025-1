@@ -11,6 +11,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject textPanel;
 
     public void SetValues(string nameString, string descriptionString) {
+        bool isVisible = nameString != "" && descriptionString != "";
+        SetPanelVisible(isVisible);
         nameText.text = nameString;
         descriptionText.text = descriptionString;
     }

@@ -6,9 +6,13 @@ using UnityEngine.Events;
 public class DoSomethingOnClick : MonoBehaviour
 {
     [SerializeField] UnityEvent onClicked;
+    [SerializeField] UnityEvent onReleased;
 
-    public void InvokeEvent() {
+    public void InvokePressEvent() {
         onClicked.Invoke();
-        GetComponent<Renderer>().material.SetFloat("_GlowIntensity", 0.0f);
+    }
+
+    public void InvokeReleaseEvent() {
+        onReleased.Invoke();
     }
 }

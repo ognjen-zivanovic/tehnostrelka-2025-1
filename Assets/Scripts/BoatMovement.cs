@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class BoatMovement : MonoBehaviour
 {
-    public static Vector3 direction = new Vector3(0, 0, 1);
     public float speed = 0.2f;
+    public Vector3 direction = new Vector3(0.0f, 0.0f, -1.0f);
 
-
-    // Update is called once per frame
     void Update()
     {
         transform.localPosition += direction * speed * Time.deltaTime;

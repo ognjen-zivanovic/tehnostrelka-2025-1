@@ -5,7 +5,7 @@ using TMPro;
 
 public class BoatGameManager : MonoBehaviour
 {
-    public static int numLives = 3;
+    public static int numLives = 333333;
     public static int numPoints = 0;
 
     [SerializeField] GameObject[] livesIndicatorObjects;
@@ -43,7 +43,7 @@ public class BoatGameManager : MonoBehaviour
     public void RemoveLife() {
         numLives--;
         
-        if (numLives >= 0) {
+        if (numLives >= 0 && numLives < livesIndicatorObjects.Length) {
             livesIndicatorObjects[numLives].SetActive(false);
         }
 

@@ -468,7 +468,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9220333523713649812
 Transform:
   m_ObjectHideFlags: 0
@@ -758,6 +758,169 @@ Transform:
   - {fileID: 7234579140307505411}
   m_Father: {fileID: 212062209587851845}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &6032219670154077327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8658012597977080000}
+  - component: {fileID: 1542950592715959133}
+  - component: {fileID: 7147287419178318156}
+  - component: {fileID: 8594960914227935263}
+  - component: {fileID: 3508562612519325523}
+  - component: {fileID: 3963799324340880919}
+  m_Layer: 0
+  m_Name: Levo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8658012597977080000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6032219670154077327}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.205, y: -0.000000011176, z: -1.161}
+  m_LocalScale: {x: 0.2075, y: 0.2075, z: 0.2075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8716716000958533107}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1542950592715959133
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6032219670154077327}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7147287419178318156
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6032219670154077327}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8594960914227935263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6032219670154077327}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3508562612519325523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6032219670154077327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d054d44648d129baa35fd2bae3cc06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClicked:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3963799324340880919}
+        m_TargetAssemblyTypeName: BoatSteeringButton, Assembly-CSharp
+        m_MethodName: StartSteering
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onReleased:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3963799324340880919}
+        m_TargetAssemblyTypeName: BoatSteeringButton, Assembly-CSharp
+        m_MethodName: EndSteering
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3963799324340880919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6032219670154077327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230599a47d93c15e98bd15d13cff040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  steerSpeed: 20
+  steeringObject: {fileID: 8572079520448070961}
 --- !u!1 &6813462183022067941
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,7 +1156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6553550176178353320
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1095,7 +1258,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7418061154056551060}
+      - m_Target: {fileID: 610611394047586598}
         m_TargetAssemblyTypeName: BoatSteering, Assembly-CSharp
         m_MethodName: SteerDirection
         m_Mode: 4
@@ -1103,7 +1266,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 15
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1208,7 +1371,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6580759172890827523
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1310,7 +1473,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7418061154056551060}
+      - m_Target: {fileID: 610611394047586598}
         m_TargetAssemblyTypeName: BoatSteering, Assembly-CSharp
         m_MethodName: SteerDirection
         m_Mode: 4
@@ -1318,10 +1481,173 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -15
+          m_FloatArgument: -5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &8258294086586769392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4125228998457724158}
+  - component: {fileID: 5066617122827039560}
+  - component: {fileID: 2050203617032992607}
+  - component: {fileID: 109214114074770659}
+  - component: {fileID: 6513185447735549197}
+  - component: {fileID: 1430177279557803881}
+  m_Layer: 0
+  m_Name: Desno
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4125228998457724158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8258294086586769392}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.211, y: -0.000000011176, z: -1.161}
+  m_LocalScale: {x: 0.2075, y: 0.2075, z: 0.2075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8716716000958533107}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5066617122827039560
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8258294086586769392}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2050203617032992607
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8258294086586769392}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &109214114074770659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8258294086586769392}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6513185447735549197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8258294086586769392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d054d44648d129baa35fd2bae3cc06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClicked:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1430177279557803881}
+        m_TargetAssemblyTypeName: BoatSteeringButton, Assembly-CSharp
+        m_MethodName: StartSteering
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onReleased:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1430177279557803881}
+        m_TargetAssemblyTypeName: BoatSteeringButton, Assembly-CSharp
+        m_MethodName: EndSteering
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1430177279557803881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8258294086586769392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230599a47d93c15e98bd15d13cff040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  steerSpeed: -20
+  steeringObject: {fileID: 8572079520448070961}
 --- !u!1001 &143639878380917558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1330,6 +1656,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1668287484145447839}
     m_Modifications:
+    - target: {fileID: 220441917710475635, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 220441917710475635, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 220441917710475635, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1062459477486897574, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
         type: 3}
       propertyPath: m_TagString
@@ -1349,6 +1690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Boat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681410946521939621, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
+        type: 3}
+      propertyPath: m_Name
+      value: Voda
       objectReference: {fileID: 0}
     - target: {fileID: 8721696424873516741, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
         type: 3}
@@ -1400,9 +1746,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5648899248575746391, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8721696424873516741, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8658012597977080000}
+    - targetCorrespondingSourceObject: {fileID: 8721696424873516741, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4125228998457724158}
     - targetCorrespondingSourceObject: {fileID: 220441917710475635, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
         type: 3}
       insertIndex: -1
@@ -1412,10 +1767,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 6313552629982462031}
-    - targetCorrespondingSourceObject: {fileID: 5739490531367695214, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
+    - targetCorrespondingSourceObject: {fileID: 8577223539194385927, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7418061154056551060}
+      addedObject: {fileID: 610611394047586598}
   m_SourcePrefab: {fileID: 100100000, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52, type: 3}
 --- !u!4 &212062209587851845 stripped
 Transform:
@@ -1446,31 +1801,31 @@ MonoBehaviour:
   container: {fileID: 8572079520448070961}
   minTime: 5
   maxTime: 15
---- !u!1 &5645415583493791832 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5739490531367695214, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
+--- !u!23 &5064174765884738630 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5168407973042003824, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
     type: 3}
   m_PrefabInstance: {fileID: 143639878380917558}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7418061154056551060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5645415583493791832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fac697b49b322054bd5a05c53bc1def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boat: {fileID: 5645415583493791832}
 --- !u!1 &8572079520448070961 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8577223539194385927, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
     type: 3}
   m_PrefabInstance: {fileID: 143639878380917558}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &610611394047586598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8572079520448070961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fac697b49b322054bd5a05c53bc1def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveMaterial: {fileID: 5064174765884738630}
 --- !u!4 &8716716000958533107 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8721696424873516741, guid: 05b3e6bd1b963c0e381f7a7bfd2c9b52,
